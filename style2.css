@@ -1,0 +1,185 @@
+body {
+    background-color: #080840;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: "Helvetica Neue";
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#empathyMapsBox {
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.empathyMapsItem {
+    width: 45%;
+    height: auto;
+    margin: 0 2.5%;
+    padding: 5px;
+    border: 5px solid black;
+}
+
+#observationsBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.observationsItem {
+    width:45%;
+    margin: 1% 2.5%;
+    padding: 5px;
+    border: 5px solid black;
+}
+
+.mapPicture {
+    width: 100%;
+    height: auto;
+}
+
+#storyboardBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.storyboardItem {
+    width: 25%;
+    height: auto;
+    margin: 2% 3%;
+    text-align: center;
+    padding: 5px;
+    border: 5px solid black;
+}
+
+.storyboardPicture {
+    width: 100%
+}
+
+.initialDrawing {
+    width: 60%;
+}
+
+.questions {
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 5px solid black;
+}
+
+#question {
+    color: navy;
+    font-family: Monaco;
+}
+
+.originalWebsitePic {
+    width: 50%;
+    height: auto;
+    padding-top: 10px;
+}
+
+.text {
+    width: 90%;
+    justify-content: center;
+    text-align: left;
+    padding: 3%;
+    border: 5px solid white;
+}
+
+.lofiText {
+    width: 90%;
+    justify-content: center;
+    text-align: left;
+    padding: 3%;
+}
+
+.link {
+    color: white;
+    font-size: larger;
+    border: 2px solid maroon;
+}
+
+#lofiBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.lofiItem {
+    width: 40%;
+    height: auto;
+    padding-top: 5%;
+}
+
+.picture {
+    width: 80%;
+    height: auto
+}
+
+.titleText {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.hifiPicture {
+    width: 30%;
+    height: auto
+}
+
+.lastPicture {
+    width: 60%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+#hifiBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.hifiItem {
+    width: 40%;
+    height: auto;
+    padding-top: 5%;
+}

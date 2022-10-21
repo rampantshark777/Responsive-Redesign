@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+    <title>Responsive Redesign Project</title>
+</head>
+<h1>Responsive Redesign</h1>
+<h2>Current Website Link</h2>
+<a href="https://maharaniindiancuisine.com/" class="link">Maharani Indian Cuisine Current Website</a>
+<h2>Redesigned Website Link</h2>
+<a href="redesign.html" class="link">Maharani Indian Cuisine Redesigned Website</a>
+<h2>Current Website Screenshot</h2>
+<img src="originalWebsiteScreenshot.png", class="originalWebsitePic">
+<p>Maharani Indian Cuisine is a local restaurant in Charlotte, NC, my hometown, which has warm and comforting atmosphere but a lacking and bare-bones website.</p>
+
+<h2>Problems with the Website</h2>
+<p class="text">
+    1) Lack of memorability- All text is written in the same font which means that nothing stands out; this hurts the site's memorability aspect, as users will have trouble remembering the aspects of the site they generally interact with. </br>
+    2) Lack of readability- The page also not take up the entire space provided by the browser which leads to a lot of extra whitespace and also means the text and image are smaller. </br>
+    3) Lack of usability- Vertical nav bar has different parts of the menu with search bar underneath which feels unnecessary and confusing. Would feel more intuitive to have a link to complete menu and use that space for something else.</br>
+</p>
+
+<h2>Accessibility Issues</h2>
+<p class="text">
+    1) There are many warnings regarding small text. </br>
+    2) Images do not have alternative text which are used by screen readers or when the image is unavailable </br> </br>
+    I agree with the warnings that were detected by WAVE. There is a lot of text that is difficult to read on the original website, especially on the mobile versions (iPhone). Furthermore, I see the potential for issues with the second warning, as there is no backup plan for the case that an image is unable to load for any reason.
+</p>
+
+<h2>Low-Fidelity Wireframing</h2>
+
+<p class="lofiText">
+    To address the problems mentioned above, I did the following: </br>
+    1) I made sure to use a variety of fonts to combat the memorability issue. I used different fonts for the restaurant title at the top of the page, the paragraph describing the background of the restaurant, and the navigation bar/contact us and location at the bottom of the page. </br>
+    2) I tried to minimize whitespace without sacrificing clarity; in other words, I made a conscious effort to maximize the use of space. For example, I made sure to center most text and the hours while also making them larger than on the original website so that more space was used and the information was made more apparent.</br>
+    3) I got rid of the vertical nav bar that contained information about the menu and simply made menu an option on the horizontal nav bar. This reduced clutter and got rid of unnecessary information.</br>
+    4) I increased font size so that text is readable even on different devices.</br>
+    5) I filled in the alt field for all images.
+</p>
+
+<div id="lofiBox">
+    <div class="lofiItem">
+        <h3>Laptop</h3>
+        <img src="balsamiq1.png" class="picture">
+        <p>Here, I eliminated the vertical nav bar to reduce clutter. Instead, I added a menu option to the horizontal nav bar. I also chose a new background color to give the website a warmer feel and made the hover over buttons and the nav bar into another warm color.</p>
+    </div>
+    <div class="lofiItem">
+        <h3>Tablet</h3>
+        <img src="balsamiq2.png" class="picture">
+        <p>I decided that the way that the hours were being displayed was unnecessarily unclear; therefore, I made a table that contained all seven days of the week and the hours on each day for lunch and dinner. I also made the text and image sizes responsive so that regardless of the device, the website will look pretty much the same.</p>
+    </div>
+    <div class="lofiItem">
+        <h3>Smartphone</h3>
+        <img src="balsamiq3.png" class="picture">
+        <p>In order to maximize the use of space, I decided to put the address, order/catering links, and contact information in the same flex box at the bottom. This way the page is not unnecessarily long and all vital information is viewable without much scrolling.</p>
+    </div>
+</div>
+
+<h2 class="titleText">Visual Design Style Guide</h2>
+<img src="figma2.png" class="hifiPicture">
+
+<h2 class="titleText">High-Fidelity Prototypes</h2>
+<div id="hifiBox">
+    <div class="hifiItem">
+        <img src="figma1.png" class="picture">
+    </div>
+    <div class="hifiItem">
+        <img src="figma3.png" class="picture">
+    </div>
+    <div class="hifiItem">
+        <img src="figma4.png" class="picture">
+    </div>
+</div>
+
+
+</body>
+</html>

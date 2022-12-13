@@ -183,3 +183,18 @@ img {
     height: auto;
     padding-top: 5%;
 }
+
+.back {
+    width: 12%;
+    font-size: 120%;
+    margin: 2%;
+    background-color: navy;
+    color: white;
+    border-color: white;
+    border-radius: 8%;
+}
+
+button:hover {
+    background-color: #a2ffbf;
+    color: black;
+}
